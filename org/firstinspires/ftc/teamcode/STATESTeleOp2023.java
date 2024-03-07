@@ -142,7 +142,7 @@ public class STATESTeleOp2023 extends LinearOpMode {
     FourbarPosition("Rest");
     // Sequence steps
     ReadyToGrabPixelsStep = 0;
-    // The stuff for pivot function
+    // The stuff for the pivot function
     outtakePivotServoAsServo.setPosition(0.4872);
     climberWinchMotor.setTargetPosition(0);
     backLeftMotor.setTargetPosition(0);
@@ -249,7 +249,7 @@ public class STATESTeleOp2023 extends LinearOpMode {
   }
 
   /**
-   * Describe this function...
+   * pick
    */
   private void MissedPick() {
     if (MissedPickStep == 0) {
@@ -641,7 +641,7 @@ public class STATESTeleOp2023 extends LinearOpMode {
   }
 
   /**
-   * Describe this function...
+   * Passoff between chomper and manipulator
    */
   private void EnteringTheManipulator() {
     double EnteringTheManipulatorTimer;
