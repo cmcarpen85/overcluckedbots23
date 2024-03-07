@@ -82,7 +82,7 @@ public class STATESBlueCloseAutoExtraCycle extends LinearOpMode {
   double GyroAdjustment;
 
   /**
-   * Describe this function...
+   * RampUp/Down
    */
   private void rampUpRampDownAng(double desiredAngle, double maxDrivePower, double RampPow, int RampAngle) {
     double ROC;

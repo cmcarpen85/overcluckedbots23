@@ -1,0 +1,92 @@
+package org.firstinspires.ftc.teamcode;
+
+import com.qualcomm.hardware.bosch.BNO055IMU;
+import com.qualcomm.robotcore.hardware.CRServo;
+import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.DistanceSensor;
+import com.qualcomm.robotcore.hardware.Servo;
+import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
+import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
+import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
+import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
+
+
+public class OCBhardwareMap {
+    //create motors
+    public DcMotor frontLeftMotor=null
+    public DcMotor frontRightMotor=null
+    public DcMotor backLeftMotor=null
+    public DcMotor backRightMotor=null
+    public DcMotor leftLiftMotor=null
+    public DcMotor rightLiftMotor=null
+    public DcMotor intakeMotor=null
+
+    //create servos
+    public Servo intakePivotServo=null
+    public Servo toggleServo=null
+    public Servo outtakePivotServo=null
+    public Servo toggleServo=null
+    public Servo wristServo=null
+    public CRServo passoffConveyor=null
+    public CRServo passoffConveyor2=null
+
+    //additional variables 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
