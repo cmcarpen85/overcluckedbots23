@@ -84,7 +84,7 @@ public class STATESTeleOp2023 extends LinearOpMode {
   boolean LatchReleasePixels3;
 
   /**
-   * Describe this function...
+   * Intake
    */
   private void initialize() {
     int INTAKE_TICKS_PER_REVOLUTION;
@@ -97,7 +97,7 @@ public class STATESTeleOp2023 extends LinearOpMode {
     imuAsBNO055IMU.initialize(new BNO055IMU.Parameters());
     climberReleaseServo.setPosition(0.505);
     droneReleaseServo.setPosition(0.5);
-    // Verify all initalizations before "TargetAngle=0"
+    // Verify all initializations before "TargetAngle=0"
     ZeroLiftLatch = false;
     SlightlyLoweredCommonDifference = 20;
     INTAKE_TICKS_PER_REVOLUTION = 28;
@@ -127,7 +127,7 @@ public class STATESTeleOp2023 extends LinearOpMode {
     // Disabled because may not go to that height
     // The stuff for wrist function
     wristServoAsServo.setPosition(0.513);
-    // The stuff for toggle function
+    // The stuff for the toggle function
     scoringCenter = 0.497;
     scoringSecondary = 0.5125;
     scoringCentral = 0.475;
