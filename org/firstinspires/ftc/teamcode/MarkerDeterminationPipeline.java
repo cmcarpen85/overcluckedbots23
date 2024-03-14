@@ -24,6 +24,7 @@ public class MarkerDeterminationPipeline extends OpenCvPipeline {
     LEFT,
     CENTER,
     RIGHT,
+    NONE
   }
 
   /*
